@@ -1,6 +1,36 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/vuex-useStore/vuex-useStore",
+			"style": {
+				"navigationBarTitleText": "vuex测试useStore使用"
+			}
+		},
+		{
+			"path": "pages/to-refs/to-refs",
+			"style": {
+				"navigationBarTitleText": "toRefs"
+			}
+		},
+		{
+			"path": "pages/to-ref/to-ref",
+			"style": {
+				"navigationBarTitleText": "toRef"
+			}
+		},
+		{
+			"path": "pages/vuex-hooks/vuex-hooks",
+			"style": {
+				"navigationBarTitleText": "vuex测试hooks使用"
+			}
+		},
+		// {
+		// 	"path": "pages/vuex-useStore/vuex-useStore",
+		// 	"style": {
+		// 		"navigationBarTitleText": "vuex测试useStore使用"
+		// 	}
+		// },
+		{
 			"path": "pages/scroll-view/scroll-view",
 			"style": {
 				"navigationBarTitleText": "scroll-view"
