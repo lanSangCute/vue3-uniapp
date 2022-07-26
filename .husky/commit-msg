@@ -1,11 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-
-
-
-declare rulesSubject
 echo "subject类型："
-rulesSubject=(
+declare rulesSubject=(
     "feat"[="新功能"]
     "fix"[="bug修复"]
     "docs"[="文档更新，仅仅修改了文档，如readme.md"]
