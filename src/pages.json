@@ -1,5 +1,5 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/vuex-useStore/vuex-useStore",
 			"style": {
@@ -24,12 +24,6 @@
 				"navigationBarTitleText": "vuex测试hooks使用"
 			}
 		},
-		// {
-		// 	"path": "pages/vuex-useStore/vuex-useStore",
-		// 	"style": {
-		// 		"navigationBarTitleText": "vuex测试useStore使用"
-		// 	}
-		// },
 		{
 			"path": "pages/scroll-view/scroll-view",
 			"style": {
@@ -43,6 +37,25 @@
 			}
 		}
 	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"blurEffect":"dark",
+		
+		"list": [{
+			"pagePath": "pages/vuex-useStore/vuex-useStore",
+			"iconPath": "static/a.svg",
+			"selectedIconPath": "static/logo.png",
+			"text": "组件"
+		}, {
+			"pagePath": "pages/vuex-hooks/vuex-hooks",
+			"iconPath": "static/a.svg",
+			"selectedIconPath": "static/logo.png",
+			"text": "接口"
+		}]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
